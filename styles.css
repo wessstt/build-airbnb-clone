@@ -1,22 +1,52 @@
 * {
     box-sizing: border-box;
+    font-family: 'Poppins';
+    font-style: normal;
 }
 
 body {
     margin: 0;
 }
 
-.navbar {
-    position: absolute;
-    width: 550px;
+nav {
     height: 70px;
+    display: flex;
+    padding: 20px 36px;
     box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
-.navLogo {
-    display: flex;
-    height: 70px;
-    padding: 20px 36px;
+.nav--logo {
     max-width: 100px;
 }
 
+.heroImage {
+    position: absolute;
+    width: 395.91px;
+    height: 232px;
+    left: 77px;
+    top: 96px;
+}
+
+.hero > h1 {
+    position: absolute;
+    width: 347px;
+    height: 40px;
+    left: 36px;
+    top: 360px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 110%;
+    color: #000000;
+}
+
+.hero > p {
+    position: absolute;
+    width: 320px;
+    height: 56px;
+    left: 36px;
+    top: 416px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 110%;
+    color: #222222;
+}
